@@ -83,7 +83,40 @@ print(a is b) # (is compares address of an output)
 print(a==b)  # (is compares value of an output)
 
 
-#Bitwise operator ==>(&,!,~,^,<<,>>)
+#Bitwise operator ==>(&,|,~,^,<<,>>)
+# (&(and) )
+# x=10
+# y=20
+# print(x&y)
+
+
+#(| (or)==(pipe operator) )
+# x=10
+# y=20
+# print(x|y)
+
+#(~ (not) in this always positive number is given)
+# x=10
+# print(~x)
+
+# (^ (xor)) 
+# x=10
+# y=20
+# print(x^y)
+
+#(<< (left shift)==== in this we shift to 1 bit multiply by 2*1 and shift to 2bit then multiply to 2*2 and so on)
+x=10
+y=20
+print(x<<2)
+print (y<<1)
+
+
+#(>>(right shift))
+# a=10
+# print(a>>2)
+
+
+
 
 
 #Number stystem==>(collection of digit)
@@ -95,6 +128,9 @@ print(a==b)  # (is compares value of an output)
 # print(bin(c))
 # print(oct(c))
 # print(hex(c))
+
+
+
 
 
 
