@@ -36,3 +36,8 @@ s1={ 10,20,30, 'kartik'}
 s2={ 10,20,30, 'kartik'}
 print(id(s1),id(s2))
 
+#4 Frozenset ==>  this is multable but allocates diffrent memory address
+f1= frozenset({ 10,20,30, 'kartik'})
+f2= frozenset({ 10,20,30, 'kartik'})
+print(id(f1),id(f2))
+
