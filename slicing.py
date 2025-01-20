@@ -10,3 +10,6 @@
 #     2.check start-stop direction
 #     3. if both dirction are matching then we get output otherwise
 #     it gives empty output
+str1='python'
+print(str1[::-1])  #(output reverse of the string direction -ve)
+print(str1[::])  # output print the string direction +ve
