@@ -27,4 +27,5 @@ str3=(('').join(str2))
 print(('-'.join(str2)))
 print((' '.join(str2)))
 print(type(str3))
+print(str1.count('o')) #count the number of object in the collection
   
