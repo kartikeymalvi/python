@@ -29,3 +29,6 @@ print(id(list1),id(list2))  # [gives different memory address]
 
 
 print(list1.count(20))  # [gives count of 20]
+
+print(list1.index(8))
+print(list1.index(10))
