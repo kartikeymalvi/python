@@ -13,3 +13,6 @@
 str1='python'
 print(str1[::-1])  #(output reverse of the string direction -ve)
 print(str1[::])  # output print the string direction +ve
+
+l1=[10,20,2,4,6,8,10,20,30]
+print(l1[:][::-1][1:7][::-1])
