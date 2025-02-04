@@ -1,6 +1,18 @@
 # CONTROL STATEMENTS
 
+
+
+
+
 # 1.CONDITIONAL STATEMENTS==>
+
+ #order to place if elif else==>
+
+#  1.if statements
+#  2.elif statements
+#  3.else statements
+
+#===========================
 # 1.if ==>
 # syntax==>
 # if (condition):
@@ -60,24 +72,82 @@
 #     ------statements.....
 # else:
 #         ------statements.....
-x=int(input("enter 1st number:"))
-y=int(input("enter 2nd number:"))
-z=int(input("enter 3rd number:"))
-if( x==y and y==z):
-    print('all values are equal')
-elif( x>y and x>z):
-    print(f'{x}is greater ')     
-elif(y>z and y>x):
-    print(f'{y} is greater')
-elif(z>x and z>y):
-    print(f'{z} is greater')   
-elif(x==y):
-    print(f'{x} and {y} are equal')
-elif(y==z):
-    print(f'{y} and {z} are equal')  
-elif(z==x):
-    print(f'{z} and {x} are equal') 
+# x=int(input("enter 1st number:"))
+# y=int(input("enter 2nd number:"))
+# z=int(input("enter 3rd number:"))
+# if( x==y and y==z):
+#     print('all values are equal')
+# elif( x>y and x>z):
+#     print(f'{x}is greater ')     
+# elif(y>z and y>x):
+#     print(f'{y} is greater')
+# elif(z>x and z>y):
+#     print(f'{z} is greater')   
+# elif(x==y):
+#     print(f'{x} and {y} are equal')
+# elif(y==z):
+#     print(f'{y} and {z} are equal')  
+# elif(z==x):
+#     print(f'{z} and {x} are equal') 
+
+#while loop syntax====>
+
            
+# n=int(input("enter number"))
+# i=1
+# while i<=n:
+#     if i<n:
+#         print(i,end=',')
+#     else:
+#         print(i)
+#     i=i+1
+# print("Hello")      
+
+#count digit program===>
+
+# number=int(input("enter numbers to find digits"))
+# digit=0
+# while number>0 :
+#     digit=digit+1
+#     number=number//10
+# print(digit)
+# print(number) 
+
+
+#add power===>
+
+# num=int(input("enter numbers "))
+# sum=0
+# while num>0:
+#     last_digit=num%10
+#     sum=sum+last_digit**3
+#     num=num//10
+# print(sum)
+# print(num)    
+
+#armstrong number====>
+
+number=int(input("enter numbers to find armstrong number"))
+x=y=number
+digit=0
+while number>0 :
+    digit=digit+1
+    number=number//10
+sum=0
+while y>0:
+    last_digit=y%10
+    sum=sum+last_digit**digit
+    y=y//10
+if x==sum:
+    print(f'{x} is armstrong')    
+else:
+    print(f'{x} is not armstrong')   
+
+    #palindrome number===>
+     
+    
+
+
 
 
 
