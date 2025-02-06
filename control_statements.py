@@ -127,24 +127,61 @@
 
 #armstrong number====>
 
-number=int(input("enter numbers to find armstrong number"))
-x=y=number
-digit=0
-while number>0 :
-    digit=digit+1
-    number=number//10
-sum=0
-while y>0:
-    last_digit=y%10
-    sum=sum+last_digit**digit
-    y=y//10
-if x==sum:
-    print(f'{x} is armstrong')    
-else:
-    print(f'{x} is not armstrong')   
+# number=int(input("enter numbers to find armstrong number"))
+# x=y=number
+# digit=0
+# while number>0 :
+#     digit=digit+1
+#     number=number//10
+# sum=0
+# while y>0:
+#     last_digit=y%10
+#     sum=sum+last_digit**digit
+#     y=y//10
+# if x==sum:
+#     print(f'{x} is armstrong')    
+# else:
+#     print(f'{x} is not armstrong')   
 
     #palindrome number===>
-     
+
+
+#for Loop====>
+# syntax====>
+#   for     i          in      collecion  :       
+#       (variable)          (sting,list,tuple,dict)
+#           print(i) 
+
+# input1=input("enter your name:") 
+# for i in input1:
+#     print(i)
+
+# to find string after adding +5 after alphabets 
+# input2=input("enter alphabtes:")  
+# for i in input2:
+#     x=ord(i)+4
+#     y=chr(x)
+#     print(y,end=' ')  
+
+# reverse (string palindrome)===>
+# input3=input("enter any string")
+# if input3==input3[::-1]:
+#     print( "this is palindrome srting")
+# else:
+#     print("this is palindrome srting")  
+
+
+#  reverse (string palindrome whithout inbuild function)===>   
+
+name1=input("enter name")
+l=len(name1)
+revname=''
+for i in range(l-1,-1,-1):
+    x3=revname+name1[i]
+if name1==x3:
+    print(f'given string {name1} is palindrome')
+else:
+    print('not palindrome')        
     
 
 
