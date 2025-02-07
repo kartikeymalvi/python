@@ -22,3 +22,12 @@ print("hello")
 
 
 # pass===>skip current block(used to currect the synthatical errror)
+n2=int(input("enter number"))
+i=1
+while i<=n2:
+    if i==6:
+        
+        pass
+    print(i)
+    i=i+1
+print("hello")
