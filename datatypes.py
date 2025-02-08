@@ -8,7 +8,7 @@
 # max()
 # sum() (it is not used for string)
 
- #asqui values===>
+ #aqui values===>
 #  (A-Z)=65-90
 #  (a-z)=97-122
 #  (0-9)=48-57
