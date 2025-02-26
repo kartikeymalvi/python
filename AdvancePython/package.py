@@ -1,0 +1,2 @@
+to create package in python
+we have to create an empty __init__.py file and add multiple files in a folder that makes an package in the python and we make multiple folders with __init__.py file it makes liabrary in python

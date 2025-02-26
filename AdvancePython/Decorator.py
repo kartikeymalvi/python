@@ -1,4 +1,4 @@
-# #Decoraor===>Special type of igher order function that can take function as an argument
+# #Decoraor===>Special type of higher order function that can take function as an argument
 # and it also return function(where we change the behaviour)
 
 # def outer_fun(fun1):
