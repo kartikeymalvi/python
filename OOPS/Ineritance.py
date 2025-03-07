@@ -58,17 +58,7 @@
 #        chlid
 # MRO=(Method resolution order)
 # in this multiple parents class is define priority by which class properties gets  inherited into child   (parent1,parent2) in child class inherits parents1 properties first and after parent2
-class Parent1:
-    def Home(self):
-        print('parent1 home')
-class Parent2:
-    def Home(self):
-        print('parent2 home')        
-class Child(Parent2,Parent1):
-    def car(delf):
-        print('child car')
-obj=Child()
-obj.Home ()       
+       
 # 3.MUlTILEVEL INERITANCE===>
 #     Grand-parent
 #          |
@@ -77,18 +67,52 @@ obj.Home ()
 #        chlid
 
 
-class Grandparent:
-    def Home(self):
-        print('Grand--parent')
-class Parent(Grandparent):
-    def Home1(self):
-        print("parent home")
-class Child(Parent):
-    def Home2(self):
-        print('child-home')   
-obj=Child()
-obj.Home()
-obj.Home1()                   
-obj.Home2()                   
+# class Grandparent:
+#     def Home(self):
+#         print('Grand--parent')
+# class Parent(Grandparent):
+#     def Home1(self):
+#         print("parent home")
+# class Child(Parent):
+#     def Home2(self):
+#         print('child-home')   
+# obj=Child()
+# obj.Home()
+# obj.Home1()                   
+# obj.Home2()                   
 
-# 4.Hierarichical INERITANCE==>
+# 4.Hierarichical INERITANCE==>in this inheritance propertities of parent goes to the multiple child classes
+
+# class Parent:
+#     def Home(self):
+#         print('parent class')
+# class Child(Parent):
+#     def Home1(self):
+#         print('child 1 class')
+# class Child2(Parent):
+#     def Home2(self):
+#         print('child 2 class')
+# obj=Child2()
+# obj.Home()
+# obj1=Child()
+# obj1.Home1()       
+
+
+
+# HYBRID-INERITANCE===>
+class Parent:
+    def home(self):
+        print('parent class')
+class Child1(Parent):
+    def home(self):
+        print('from child 1')  
+class Child2(Parent):
+    def home(self):
+        print('from child 2')   
+class Child3(Child1,Child2):
+    def new(self):
+        print('from child3')
+obj=Child3()
+obj.home()                          
+print(Child3.__mro__)
+
